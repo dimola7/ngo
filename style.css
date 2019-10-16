@@ -16,6 +16,12 @@
 	border: none;
 }
 
+.navbar .btn-primary:hover
+{
+	background-color: #e67e22;
+}
+
+
  /*header*/
 .header 
 {
@@ -48,6 +54,11 @@
 {
 	background-color: #d35400;
 	border: none;
+}
+
+.donate-card .btn-primary:hover
+{
+	background-color: #e67e22;
 }
 
 /*footer*/
