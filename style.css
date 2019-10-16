@@ -1,11 +1,24 @@
 /*navbar*/
-.navbar li {
+.navbar li 
+{
     margin-left : 1em;
     margin-right : 1em;
 }
 
+.navbar .logo
+{
+	color: #d35400;
+}
+
+.navbar .btn-primary
+{
+	background-color: #d35400;
+	border: none;
+}
+
  /*header*/
-.header {
+.header 
+{
   width: 100%;
   height: 600px;
   background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./assets/seth-doyle-unsplash.jpg');
@@ -13,17 +26,77 @@
   background-position: 
 }
 
-.header-text{
+.header-text
+{
   position: absolute;
   top: 50%;
   left: 26%;
   right: 40%;
   transform: translate(-50%, -50%);
+  font-family: 'Gloria Hallelujah', cursive; 
 }
 
-.donate-card{
+.donate-card
+{
 	padding: 40px 100px;
 	margin-top: -140px;
 	background-color: #fff;
 	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.donate-card .btn-primary
+{
+	background-color: #d35400;
+	border: none;
+}
+
+/*footer*/
+#footer
+{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #efefef;
+	color: #013f7e;
+}
+
+#footer .footer-logo
+{
+	color: #d35400;
+}
+
+#footer .sub-head
+{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer p
+{
+	font-size: 12px;
+	text-align: left;
+}
+
+#footer .fa
+{
+	padding-right: 20px;
+	font-size: 15px;	
+}
+
+#footer hr
+{
+	margin-top: 10px;
+}
+
+#footer .copyright 
+{
+	margin-bottom: -80px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#footer a
+{
+	color: #d35400;
 }
