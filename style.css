@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 /*navbar*/
 .navbar li 
 {
@@ -72,10 +76,53 @@
 	border: none;
 }
 
+#contact .btn-secondary:hover
+{
+	background-color: #e67e22;
+}
+
 #contact h1
 {
 	color: #d35400;
 }
+
+/* back to the top button */
+#button {
+    display: inline-block;
+    background-color: #d35400;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #e67e22;
+  }
+  #button:active {
+    background-color: #e67e22;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
 
 /*footer*/
 #footer
