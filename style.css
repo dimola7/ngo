@@ -21,7 +21,6 @@
 	background-color: #e67e22;
 }
 
-
  /*header*/
 .header 
 {
@@ -61,7 +60,20 @@
 	background-color: #e67e22;
 }
 /*about*/
-.mission{
+.mission
+{
+	color: #d35400;
+}
+
+/*contact*/
+#contact .btn-secondary
+{
+	background-color: #d35400;
+	border: none;
+}
+
+#contact h1
+{
 	color: #d35400;
 }
 
@@ -125,9 +137,20 @@
 {
 	.header-text
 	{
-		top: 35%;
+		top: 37%;
   		left: 26%;
   		right: 40%;
 		font-size: 30px;
 	}
+
+	#contact #name
+	{
+		padding-bottom: 5px;
+	}
+
+	.donate-card
+	{
+		padding: 40px 50px;
+	}
+
 }
