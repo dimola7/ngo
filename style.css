@@ -69,6 +69,35 @@ html{
 	color: #d35400;
 }
 
+/*causes*/
+.causes
+{
+	background-color: #f2f2f2;
+}
+
+.causes h1
+{
+	color: #d35400;
+}
+
+/*donation*/
+#donation
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: linear-gradient(rgba(205, 165, 88, 0.8),rgba(205, 165, 88, 0.8)),url(assets/zach-vessels-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+#donation .btn-secondary
+{
+	background-color: #d35400;
+	border: none;
+}
+
 /*contact*/
 #contact .btn-secondary
 {
@@ -185,8 +214,8 @@ html{
 	.header-text
 	{
 		top: 37%;
-  		left: 26%;
-  		right: 40%;
+  		left: 30%;
+  		right: 20%;
 		font-size: 30px;
 	}
 
