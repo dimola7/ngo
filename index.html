@@ -1,222 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>NGO</title>
-</head>
+  </head>
 
-<body id="home">
-
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-light p-3 shadow">
-        <div class="container">
-            <h1 class="logo font-weight-bold">IDEA</h1>
-            <button class="navbar-toggler bg-secondary border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-dark" href="#home">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#ab">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#causes">Causes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#co">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                    	<button type="submit" class="btn btn-secondary">Donate</button>
-                    </li>
-                </ul>
-            </div>
+  <body id="home">
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark bg-light p-3 shadow"
+    >
+      <div class="container">
+        <h1 class="logo font-weight-bold">NGO</h1>
+        <button
+          class="navbar-toggler bg-secondary border-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#home"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#ab">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#causes">Causes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#co">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button type="submit" class="btn btn-secondary">Donate</button>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <a id="button"></a>
 
-	<!-- header -->
-	<section>
-    	<div class="header">
-    		<p class='text-light font-weight-bolder font-italic header-text'>Give a hand to make the world a better place</p>
-    	</div>
-	</section>
+    <!-- header -->
+    <section>
+      <div class="header">
+        <p class="text-light font-weight-bolder font-italic header-text">
+          Give a hand to make the world a better place
+        </p>
+      </div>
+    </section>
 
-	<!-- donate -->
-	<section id="donate-card">
-		<div class="container">
-			<div class="donate-card text-center">
-				<h1>donate here</h1>
-				<p>Be a champion for those in need, let them feel your warmth. Give a little. Change a lot</p>
-    		<button type="submit" id="ab" class="btn btn-secondary home-btn">Donate</button>
-			</div>
-		</div>
-	</section>
+    <!-- donate -->
+    <section id="donate-card">
+      <div class="container">
+        <div class="donate-card text-center">
+          <h1>donate here</h1>
+          <p>
+            Be a champion for those in need, let them feel your warmth. Give a
+            little. Change a lot
+          </p>
+          <button type="submit" id="ab" class="btn btn-secondary home-btn">
+            Donate
+          </button>
+        </div>
+      </div>
+    </section>
 
-	<!-- about -->
-	<section id="about">
-		<div class="container pt-5 pb-5">
-			<div class="row">
-				<div class="col-md-6 text-center px-md-5 ">
-					<img src="./assets/ben-white-unsplash.jpg" class="img-fluid">
-				</div>
-					<div class="col-md-6 text-justify px-md-5 pt-5">
-						<h1 class="mission font-weight-bold text-center">OUR MISSION</h1>
-						<p>Non-governmental organizations - commonly referred to as NGOs, are usually non-profit independent of governments, many are active in humanitarian etc. areas.</p>
-						<p>however, NGOs can also be as lobby groups for corporations, such as the World Economic Forum. NGOs is also sometimes expanded to nongovernmental or nongovernment organizations.</p>
-					</div>
-			</div>
-		</div>
-		<div id="causes"></div>
-	</section>
+    <!-- about -->
+    <section id="about">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-md-6 text-center px-md-5 ">
+            <img src="./assets/ben-white-unsplash.jpg" class="img-fluid" />
+          </div>
+          <div class="col-md-6 text-justify px-md-5 pt-5">
+            <h1 class="mission font-weight-bold text-center">OUR MISSION</h1>
+            <p>
+              Non-governmental organizations - commonly referred to as NGOs, are
+              usually non-profit independent of governments, many are active in
+              humanitarian etc. areas.
+            </p>
+            <p>
+              however, NGOs can also be as lobby groups for corporations, such
+              as the World Economic Forum. NGOs is also sometimes expanded to
+              nongovernmental or nongovernment organizations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="causes"></div>
+    </section>
 
-	<section class="causes">
-		<div class="container pt-5 pb-5">
-			<h1 class="h1-responsive font-weight-bold text-center my-4 py-5">FEATURED CAUSES</h1>
-			<div class="card-deck">
-			  <div class="card shadow">
-			    <img src="./assets/michael-mims-unsplash.jpg" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title font-weight-bold">Providing clothes for people</h5>
-			      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud .</p>
-			    </div>
-			  </div>
-			  <div class="card shadow">
-			    <img src="./assets/bill-wegener-unsplash.jpg" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title font-weight-bold">Education for every child</h5>
-			      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud .</p>
-			    </div>
-			  </div>
-			  <div class="card shadow">
-			    <img src="./assets/esteban-castle-unsplash.jpg" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title font-weight-bold">Feeding the hungry people</h5>
-			      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud .</p>
-			    </div>
-			  </div>
-			</div>
-		</div>
-	</section>
+    <section class="causes">
+      <div class="container pt-5 pb-5">
+        <h1 class="h1-responsive font-weight-bold text-center my-4 py-5">
+          FEATURED CAUSES
+        </h1>
+        <div class="card-deck">
+          <div class="card shadow">
+            <img
+              src="./assets/michael-mims-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                Providing clothes for people
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud .
+              </p>
+            </div>
+          </div>
+          <div class="card shadow">
+            <img
+              src="./assets/bill-wegener-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                Education for every child
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud .
+              </p>
+            </div>
+          </div>
+          <div class="card shadow">
+            <img
+              src="./assets/esteban-castle-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                Feeding the hungry people
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section id="donation">
-		<div class="text-center">
-			<h2 class="font-weight-bold">Make A Donation Now! <br> You May Change Lives Forever</h2>
-			<button type="submit" id="ab" class="text-center px-5 py-3 btn btn-secondary">Donate</button>
-		</div>
-	</section>
+    <section id="donation">
+      <div class="text-center">
+        <h2 class="font-weight-bold">
+          Make A Donation Now! <br />
+          You May Change Lives Forever
+        </h2>
+        <button
+          type="submit"
+          id="ab"
+          class="text-center px-5 py-3 btn btn-secondary"
+        >
+          Donate
+        </button>
+      </div>
+    </section>
 
-<div id="co"></div>
-	<!-- contact -->
-	<div id="contact"></div>
+    <div id="co"></div>
+    <!-- contact -->
+    <div id="contact"></div>
     <section class="pb-5">
-        <div id="contact" class="container mb-4">
+      <div id="contact" class="container mb-4">
         <!--Section heading-->
-        <h1 class="h1-responsive font-weight-bold text-center my-4 py-5">CONTACT US</h1>
+        <h1 class="h1-responsive font-weight-bold text-center my-4 py-5">
+          CONTACT US
+        </h1>
 
         <!--Grid column-->
         <div class="mb-md-0 mb-5 container">
-            <form method="POST">
-                <!--Grid row-->
-                <div class="row pb-4">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control"placeholder="Your name">
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="email" id="email" class="form-control" placeholder="Email address">
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
+          <form method="POST">
+            <!--Grid row-->
+            <div class="row pb-4">
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your name"
+                  />
                 </div>
-                <!--Grid row-->
+              </div>
+              <!--Grid column-->
 
-                <!--Grid row-->
-                <div class="row pb-4">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control"placeholder="Subject">
-                        </div>
-                    </div>
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row pb-4">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" placeholder="Write your message" id="message" name="message" rows="6"
-                                class="form-control md-textarea"></textarea>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-                <div class="text-center">   
-            <input type="submit" value="Send" class="btn btn-secondary px-5 py-3">
+              </div>
+              <!--Grid column-->
             </div>
-            </form>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row pb-4">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    placeholder="Subject"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row pb-4">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    placeholder="Write your message"
+                    id="message"
+                    name="message"
+                    rows="6"
+                    class="form-control md-textarea"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+            <div class="text-center">
+              <input
+                type="submit"
+                value="Send"
+                class="btn btn-secondary px-5 py-3"
+              />
+            </div>
+          </form>
         </div>
         <!--Grid column-->
-        </div>
+      </div>
     </section>
 
-	<!-- footer -->
-	<section id="footer">
-		<div class="container">
-			<div class="row">
-				<div class=col-md-3>
-					<h1 class="footer-logo font-weight-bold">IDEA</h1>
-					<p>Be a champion for those in need, let them feel your warmth. Give a little. Change a lot gvfcdt ufydvig ubhi dbhnjn</p>
-				</div>
-				<div class=col-md-3>
-					<h1 class="sub-head">Features</h1>
-					<p><a href="#ab" class="social">About Us</a></p>
-					<p>Testimonials</p>
-					<p><a href="#co" class="social">Contact Us</a></p>
-				</div>
-				<div class=col-md-3>
-					<h1 class="sub-head">Take Actions</h1>
-					<p><a href="#donation" class="social">Donations</a></p>
-					<p><a href="#co" class="social">Become a volunteer</a></p>
-				</div>
-				<div class=col-md-3>
-					<h1 class="sub-head">Follow Us on</h1>
-					<a href="#" class="social"><p><i class="fa fa-facebook-official"></i> Facebook</p></a>
-					<a href="#" class="social"><p><i class="fa fa-linkedin"></i> Linkedin</p></a>
-					<a href="#" class="social"><p><i class="fa fa-twitter"></i> Twitter</p></a>
-				</div>
-			</div> <hr>
+    <!-- <div class="container">
+      <iframe
+        src="https://powerva.microsoft.com/webchat/bots/c3e95f95-4402-4871-a8f7-4f2a8cba0d7f"
+        frameborder="0"
+        style="width: 30%; height: 100%;"
+      >
+      </iframe>
+    </div> -->
 
-			<p class="copyright">Copyright <span class="year" id="copyright">&copy;</span> All rights reserved | Built by <a href="https://adedimola.netlify.com/">Adedimola</a></p>
-		</div>
-	</section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h1 class="footer-logo font-weight-bold">IDEA</h1>
+            <p>
+              Be a champion for those in need, let them feel your warmth. Give a
+              little. Change a lot gvfcdt ufydvig ubhi dbhnjn
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h1 class="sub-head">Features</h1>
+            <p><a href="#ab" class="social">About Us</a></p>
+            <p>Testimonials</p>
+            <p><a href="#co" class="social">Contact Us</a></p>
+          </div>
+          <div class="col-md-3">
+            <h1 class="sub-head">Take Actions</h1>
+            <p><a href="#donation" class="social">Donations</a></p>
+            <p><a href="#co" class="social">Become a volunteer</a></p>
+          </div>
+          <div class="col-md-3">
+            <h1 class="sub-head">Follow Us on</h1>
+            <a href="#" class="social"
+              ><p><i class="fa fa-facebook-official"></i> Facebook</p></a
+            >
+            <a href="#" class="social"
+              ><p><i class="fa fa-linkedin"></i> Linkedin</p></a
+            >
+            <a href="#" class="social"
+              ><p><i class="fa fa-twitter"></i> Twitter</p></a
+            >
+          </div>
+        </div>
+        <hr />
+
+        <p class="copyright">
+          Copyright <span class="year" id="copyright">&copy;</span> All rights
+          reserved | Built by
+          <a href="https://adedimola.netlify.com/">Adedimola</a>
+        </p>
+      </div>
+    </section>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
